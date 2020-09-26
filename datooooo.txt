@@ -1,0 +1,24 @@
+<?php
+
+class Conexion{
+
+		public function conectar(){
+			$link= new PDO("mysql:host=sql130.main-hosting.eu;dbname=u653178081_store",
+						   "u653178081_twynco_store",
+						   "Twy123456Store*");
+			$link->exec("set names utf8");
+
+			return $link;
+		}
+
+}
+
+?>
+
+
+
+Careta con imagen de Bowser ideal para niños de entre 4 a 10 años.
+1 80
+20 65
+50 60
+100 58
